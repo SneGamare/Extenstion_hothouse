@@ -1,0 +1,36 @@
+
+#smart-mvp-panel {
+  position: fixed;
+  right: 16px;
+  bottom: 16px;
+  z-index: 2147483647;
+  background: white;
+  color: #111;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 6px 24px rgba(0,0,0,0.15);
+  max-width: 360px;
+  font-family: system-ui, Arial, sans-serif;
+  overflow: hidden;
+}
+#smart-mvp-panel header {
+  background: #111827;
+  color: white;
+  padding: 8px 12px;
+  font-size: 14px;
+  display: flex; align-items: center; justify-content: space-between;
+}
+#smart-mvp-panel .body { padding: 10px 12px; font-size: 13px; }
+#smart-mvp-panel .row { display: flex; gap: 8px; margin-top: 8px; }
+#smart-mvp-panel button {
+  flex: 1;
+  padding: 8px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  background: #f8f8f8;
+  cursor: pointer;
+}
+#smart-mvp-panel .pill { display:inline-block; padding:2px 6px; border-radius:999px; font-size:12px; background:#eef2ff; color:#3730a3; }
+#smart-mvp-panel .good { background:#ecfdf5; color:#065f46; }
+#smart-mvp-panel .warn { background:#fff7ed; color:#9a3412; }
+#smart-mvp-close { background: transparent; color: white; border: none; font-size: 16px; cursor:pointer;}

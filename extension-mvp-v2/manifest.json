@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Autofill + Advisor (v3)",
+  "version": "0.3.0",
+  "description": "Autofill + auto-learn + AI advisor using a comprehensive demo financial profile.",
+  "permissions": ["storage", "activeTab", "scripting"],
+  "action": { "default_popup": "popup.html", "default_title": "Smart Autofill v3" },
+  "content_scripts": [{
+    "matches": ["<all_urls>"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }],
+  "web_accessible_resources": [{
+    "resources": ["profile.json"],
+    "matches": ["<all_urls>"]
+  }]
+}

@@ -1,0 +1,48 @@
+{
+  "user": {"name": "Tarun Yadav", "dob": "1994-08-09", "pan": "AIZPY9624M", "aadhaar": "401400756654", "residence_city": "Delhi"},
+  "cash": {
+    "savings_accounts": [
+      {"bank": "HDFC Bank", "acct_type": "Savings Max", "balance_inr": 225000, "interest_pct": 3.0},
+      {"bank": "ICICI Bank", "acct_type": "Savings", "balance_inr": 90000, "interest_pct": 3.0}
+    ],
+    "current_accounts": []
+  },
+  "deposits": {
+    "fds": [
+      {"bank": "HDFC Bank", "rate_pct": 7.2, "tenure_months": 12, "opened_on": "2025-03-15", "amount_inr": 300000, "premature_penalty_pct": 1.0},
+      {"bank": "SBI", "rate_pct": 7.1, "tenure_months": 24, "opened_on": "2024-09-01", "amount_inr": 200000, "premature_penalty_pct": 1.0}
+    ],
+    "rds": []
+  },
+  "investments": {
+    "mutual_funds": [
+      {"scheme": "Nippon India Nifty 50 Index", "type": "Equity Index", "value_inr": 450000, "expense_ratio_pct": 0.2, "sip_inr": 10000},
+      {"scheme": "HDFC Liquid Fund", "type": "Debt - Liquid", "value_inr": 150000, "expense_ratio_pct": 0.2, "sip_inr": 0}
+    ],
+    "bonds": [{"name": "Tax-free PSU bond 2029", "coupon_pct": 7.35, "value_inr": 100000}],
+    "stocks": [{"symbol": "TCS", "value_inr": 180000}, {"symbol": "TITAN", "value_inr": 120000}],
+    "gold": {"value_inr": 80000}
+  },
+  "credit_cards": [
+    {"issuer": "HDFC Bank", "name": "Millennia", "annual_fee_inr": 1000, "fx_markup_pct": 3.5,
+     "rewards": {"base_pct": 1.0, "online_pct": 1.5, "travel_pct": 3.0, "dining_pct": 1.5}, "lounge_visits_per_quarter": 2},
+    {"issuer": "SBI Card", "name": "SimplyCLICK", "annual_fee_inr": 499, "fx_markup_pct": 3.5,
+     "rewards": {"base_pct": 0.5, "online_pct": 1.5, "travel_pct": 1.0, "dining_pct": 1.0}, "lounge_visits_per_quarter": 0}
+  ],
+  "loans": {
+    "home_loan": {"lender": "HDFC Ltd", "outstanding_inr": 3200000, "rate_pct": 8.5, "emi_inr": 32000},
+    "auto_loan": null,
+    "credit_utilization_pct": 18.0
+  },
+  "insurance": {
+    "term_life": {"cover_inr": 10000000, "premium_inr": 12000, "insurer": "Tata AIA"},
+    "health": {"sum_insured_inr": 1000000, "premium_inr": 18000, "insurer": "HDFC ERGO"},
+    "motor": {"premium_inr": 6000}
+  },
+  "spend_profile": {"online": 0.4, "travel": 0.3, "dining": 0.2, "other": 0.1, "monthly_spend_inr": 60000},
+  "goals": [
+    {"name": "Emergency Fund", "target_inr": 300000, "current_inr": 240000, "horizon_months": 0},
+    {"name": "Travel 2026", "target_inr": 200000, "current_inr": 50000, "horizon_months": 12}
+  ],
+  "risk_profile": {"tolerance": "Moderate", "notes": ["prefers low effort, hates high annual fees"]}
+}
